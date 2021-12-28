@@ -18,9 +18,15 @@ int main(int argc, const char * argv[]) {
     NS::AutoreleasePool* pPool   = NS::AutoreleasePool::alloc()->init();
     MTL::Device* pDevice = MTL::CreateSystemDefaultDevice();
     
+    // Create the custom object used to encapsulate the Metal code.
+    // Initializes objects to communicate with the GPU.
     metalComputeWrapper* computer = new metalComputeWrapper();
     computer->initWithDevice(pDevice);
+    
+    // Create buffers to hold data
     computer->prepareData();
+    
+    // Send a command to the GPU to perform the calculation.
     computer->sendComputeCommand();
     
     pPool->release();

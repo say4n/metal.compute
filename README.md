@@ -9,7 +9,7 @@ a verbose example showcasing the use of Apple's Metal API in C++ via [`metal-cpp
 
 this repository exists as a C++ port of [Apple's guide](https://developer.apple.com/documentation/metal/basic_tasks_and_concepts/performing_calculations_on_a_gpu) to using Metal to perform computation on a GPU.
 
-please follow the accompanying [blog post](https://sayan.page/metal-for-compute/) for an explanation of the various components
+please follow the accompanying [blog post](https://blog.sayan.page/metal-for-compute/) for an explanation of the various components
 of the codebase.
 
 ## author

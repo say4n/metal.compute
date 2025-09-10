@@ -3,7 +3,7 @@
 a verbose example showcasing the use of Apple's Metal API in C++ via [`metal-cpp`](https://github.com/bkaradzic/metal-cpp) to perform arbitrary compute on GPUs
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://sayan.page/metal-for-compute/)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://sayan.page/metal-for-compute/)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)]([https://sayan.page/metal-for-compute/](https://blog.sayan.page/metal-for-compute/))
 
 ## why
 
